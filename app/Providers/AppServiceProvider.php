@@ -25,6 +25,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(191);
-        //
+        //Roles Cliente venta detalle_venta factura detalle_factura proveedores orden_compra
     }
 }
